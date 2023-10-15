@@ -6,6 +6,27 @@
     <title>Form Concept</title>
   </head>
   <body>
+    <form>
+      <!-- autocomplete on/off le input box ma ek patak type gare paxi save vayera basaeko
+         content haru auto dekhaaune ki nadekhaaune vanne kura janaauxa -->
+      <input type="text" name="lname" autocomplete="off" />
+      <hr />
+      <!-- required le lekhnai parne -->
+      <input type="text" name="normal" required />
+      <hr />
+      <!-- read only le input box ma vako content read matra garnu milne
+    modify garnu namilne banauxa -->
+      <input type="text" name="normal2" value="sajan" readonly />
+      <hr />
+
+      <input type="text" name="normal3" value="kafle" disabled />
+      <hr />
+      <!-- hidden  le innput box ko content nadekhaune, modify garna namilne tara data 
+    base ma data vane jane  garxa -->
+      <input type="hidden" value="aarambha" name="normal5" />
+      <hr />
+      <button>Send</button>
+    </form>
     <!-- form vitra method ma post garyo vane form ma input gareko data haru browser link ma 
     dekhidaina yo chai by default method="get" method="post" hunxa -->
     <form action="" method="get">
