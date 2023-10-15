@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=fo, initial-scale=1.0" />
+    <title>Form Concept</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>HTML FORM</legend>
+        <!-- list ma input gareko value data list ma input garda navbar ma hint aauxa -->
+        <input type="text" name="country" list="a" />
+        <datalist id="a">
+          <option value="Nepal"></option>
+          <option value="Korea"></option>
+          <option value="China"></option>
+          <option value="USA"></option>
+        </datalist>
+        <hr />
+        Food
+        <select name="food" id="" multiple>
+          <optgroup label="fruits">
+            <option value="">Mango</option>
+            <option value="">Apple</option>
+          </optgroup>
+          <optgroup label="Vege">
+            <option value="">Cauli-Flower</option>
+            <option value="">Beans</option>
+          </optgroup>
+        </select>
+
+        <hr />
+        Week: <input type="week" name="week" />
+        <hr />
+        Month: <input type="month" name="month" />
+        <hr />
+        Date: <input type="date" name="date" />
+        <hr />
+        Time: <input type="time" name="time" />
+        <hr />
+        Date & Time : <input type="datetime-local" name="date&time" />
+        <hr />
+        Upload File: <input type="file" name="photo" />
+        <hr />
+        Color: <input type="color" name="color" />
+        <hr />
+        <input type="range" name="range" />
+        <hr />
+        <input type="email" name="email" id="" />
+        <hr />
+        password:
+        <input type="password" name="password" id="" />
+        <button>Send</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
