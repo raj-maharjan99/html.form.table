@@ -6,7 +6,9 @@
     <title>Form Concept</title>
   </head>
   <body>
-    <form action="">
+    <!-- form vitra method ma post garyo vane form ma input gareko data haru browser link ma 
+    dekhidaina yo chai by default method="get" method="post" hunxa -->
+    <form action="" method="get">
       <fieldset>
         <legend>HTML FORM</legend>
         <!-- list ma input gareko value data list ma input garda navbar ma hint aauxa -->
@@ -51,6 +53,18 @@
         <hr />
         password:
         <input type="password" name="password" id="" />
+        <hr />
+        <!-- input type image le image halera use garne button ko kaam garxa -->
+        Image Button: <input type="image" src="light.jpg" height="50px" />
+        <hr />
+        <!-- differt style to create button -->
+        <!-- submit type wala pani button ho -->
+        <input type="submit" value="ok" />
+        <hr />
+        <!-- type Reset le all form reset gardinxa -->
+        Reset Button: <input type="reset" />
+        <hr />
+
         <button>Send</button>
       </fieldset>
     </form>
