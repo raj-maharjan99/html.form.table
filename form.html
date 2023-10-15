@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <!-- label ko name define garyo vane bahira ko 
+        name ma click garne bittikai form ma 
+    auto click huna pugxa -->
+      <label for="ab">Enter First Name : </label
+      ><input name="fname" type="text" id="ab" />
+      <hr />
+      <label for="bc">Enter Last Name : </label>
+      <input name="lname" type="text" id="bc" />
+      <hr />
+      <label for="cd">Enter Age : </label>
+      <input name="age" type="number" id="cd" />
+      <hr />
+      Gender : <input type="radio" name="gender" value="boy" id="mle" />
+      <label for="mle"> Male</label>
+      <input type="radio" name="gender" value="girl" id="fmle" />
+      <label for="fmle">Female</label>
+      <hr />
+      Gender :
+      <select name="gen">
+        <option value="">Male</option>
+        <option value="">Female</option>
+      </select>
+      <hr />
+      Message: <textarea name="mss"></textarea>
+      <hr />
+      Color: <input type="checkbox" name="color" value="red" />
+      <lable>Red</lable> <input type="checkbox" name="color" value="green" />
+      <lable>Green</lable>
+      <input type="checkbox" name="color" value="orange" />
+      <lable>Orange</lable>
+      <hr />
+      Photo: <input type="file" />
+      <hr />
+      <button>Send</button>
+    </form>
+  </body>
+</html>
