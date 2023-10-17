@@ -1,0 +1,81 @@
+1.  <i> </i>
+	 <strong> </strong> etc.......
+	
+
+2. <a class="" href="" alt="" target="" ></a>
+3. <p> Hypertext <sub> A system of text pages that have cross-references.</sub> </p>
+	 <p> Hypertext <sub> A part of hypertext document that references another item.</sub> </p>
+4 . 
+    <table border="2" cellspacing="2">
+      
+<tr>
+        <th>Header</th>
+
+      <th>Header</th>
+
+         <th>Header</th>
+
+        <th>Header</th>
+    </tr>
+
+    <tr>
+       <td rowspan="4">Span rows</td>
+
+        <td colspan="3">Span Coulumns</td>
+    </tr>
+      <tr>
+          <td colspan="2">Span Coulumns</td>
+
+          <td rowspan="3">Span Coulumns</td>
+      </tr>
+      <tr>
+           <td rowspan="2">Span rows</td>
+
+          <td>Span Coulumns</td>
+  </tr>
+    <tr>
+         <td>Span Coulumns</td>
+      </tr>
+    
+
+
+</table>
+
+5.  <form>
+
+      Name: <input type="text" />
+
+   <br />
+      Address: <input type="text" />
+
+    <br />
+      City: <input type="text" />
+ <br />
+
+      State: <input type="text" />
+
+ <br />
+         Zip:   <input type="number" />
+  <br />
+        Magazine:   <select>
+        
+        <option>  Newsweek  </option>
+       
+      </select>
+     <br />
+
+      subscription: <input type="radio" />  1 year
+
+
+              <input type="radio" /> 2 year
+      <br />
+
+      <button>Send Your Order</button>
+
+    </form>
+
+
+
+
+
+

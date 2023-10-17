@@ -1,0 +1,17 @@
+.form_css {
+  width: 200px;
+}
+.ages {
+  display: flex;
+  gap: 48px;
+}
+.btn_css button:nth-child(1) {
+  background: blue;
+  color: white;
+}
+.moreFormFeatures {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  text-decoration: none;
+}
