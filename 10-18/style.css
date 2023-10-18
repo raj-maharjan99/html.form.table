@@ -1,0 +1,27 @@
+.a {
+  width: 200px;
+  height: 250px;
+  background-color: green;
+}
+.raj {
+  width: 300px;
+  height: 300px;
+  border: 5px solid red;
+  background: blue;
+  box-sizing: border-box;
+  /* div ma border didabox sizing: content box use garda
+  div ko actual size badhi hunxa so border-box garnu parxa */
+  display: flex;
+
+  justify-content: center;
+  place-items: center;
+}
+.samragi {
+  height: 200px;
+  width: 200px;
+  background: burlywood;
+  border-radius: 100px;
+  border: 2px solid red;
+}
+.box1 {
+}
