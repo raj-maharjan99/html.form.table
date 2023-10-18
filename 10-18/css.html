@@ -4,24 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      .a {
-        width: 200px;
-        height: 200px;
-        background: green;
-        /* float left, right , none float use gare paxi if arko div tala rakhnu parda
-        clear: both use garne garnai parxa my friend */
-
-        float: left;
-        border-radius: 20px;
-        outline: 10px dashed blue;
-        /* outline le div bahira border create garne kaam garxa */
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="a"></div>
-    <div class="b"></div>
-    <div class="c"></div>
+    <div class="header-logo">
+      <img
+        width="200"
+        src="https://broadwayinfosys.com/uploads/logo/1667276403.new_broadway_logo.svg"
+        alt=""
+      />
+    </div>
+    <div class="header-contact">
+      <strong>Inquiry Hotline:</strong>
+      <a href="tel:9855081882" target="_blank">9855081882</a><br />
+      <a href="tel:98111111" target="_blank">98111111/</a>
+      <a href="tel:98111111" target="_blank">98122222</a>
+    </div>
+
+    <div class="menu">Home | Gallery | Career | Contact | Blog</div>
+    <br />
+    <div class="left">
+      <dl>
+        <!--dl vitra dt le title define garxa ani dd le thorai space xodera
+        content basaauxa  -->
+        <dt>Mount Everest</dt>
+        <dd>
+          Geographical Marvel: Mount Everest, known as "Sagarmatha" in Nepal and
+          "Chomolungma" in Tibet, rises to an astounding height of 29,032 feet
+          (8,849 meters) above sea level. It is a part of the Mahalangur Range,
+          which stretches across the Nepal-Tibet border. The summit of Everest
+          is enveloped by clouds, snow, and a biting cold that challenge even
+          the bravest souls. First Conquest: The allure of conquering Everest
+        </dd>
+        <br />
+        <dt>Geographical Marvel:</dt>
+        <dd>
+          which stretches across the Nepal-Tibet border. The summit of Everest
+          is enveloped by clouds, snow, and a biting cold that challenge even
+          the bravest souls.
+        </dd>
+        <!-- Add more terms and descriptions as needed -->
+      </dl>
+    </div>
+    <!-- Note:  css ko float concept ma left right use gare paxi arko kunai div
+    tala rakhnu paryo vane last ko div ko css ma compulsary float use garera
+clear: both garne  -->
+    <div class="mid"></div>
+    <div class="right"></div>
+
+    <hr />
+    <div class="transparent">
+      <div class="mid-box"></div>
+    </div>
   </body>
 </html>

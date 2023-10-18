@@ -1,27 +1,76 @@
-.a {
-  width: 200px;
-  height: 250px;
-  background-color: green;
+body {
+  max-width: 1240px;
 }
-.raj {
+.header-logo {
+  float: left;
+}
+.header-contact {
+  float: right;
   width: 300px;
-  height: 300px;
-  border: 5px solid red;
-  background: blue;
+  height: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+/* .clear {
+  clear: both;
+} */
+.header-contact a {
+  text-decoration: none;
+  color: black;
+}
+.menu {
+  float: center;
+  text-align: center;
+  clear: both;
+  line-height: 50px;
+  letter-spacing: 5px;
+  border: 2px solid black;
+}
+.left {
+  height: 450px;
+  width: 30%;
+  background: red;
+  float: left;
+  padding: 5px;
   box-sizing: border-box;
-  /* div ma border didabox sizing: content box use garda
-  div ko actual size badhi hunxa so border-box garnu parxa */
-  display: flex;
-
-  justify-content: center;
-  place-items: center;
+  font-size: 15px;
 }
-.samragi {
-  height: 200px;
-  width: 200px;
-  background: burlywood;
-  border-radius: 100px;
-  border: 2px solid red;
+.mid {
+  height: 450px;
+  width: 50%;
+  background: rgb(13, 146, 82);
+  float: left;
 }
-.box1 {
+.right {
+  height: 450px;
+  width: 20%;
+  background: rgba(58, 7, 146, 0.765);
+  float: left;
+}
+.mid-box {
+  width: 100%;
+  height: 450px;
+  float: left;
+  clear: both;
+  background: rgba(176, 17, 49, 0.443);
+}
+.transparent {
+  background-image: url(https://www.leadstreet.be/hubfs/1200-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+  height: 450px;
+  width: 100%;
+  /* position: absolute;
+  z-index: 1; */
+}
+dt {
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
+}
+dd {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 14px;
 }
